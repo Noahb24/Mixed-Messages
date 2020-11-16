@@ -6,5 +6,11 @@ const verbPastTense = ['golfed','hid','clung','tripped','screamed','opended']
 const verb = ['run','scare','tease','fall','shovel','look']
 
 const findWord = type => {
-    
+    const rand = Math.floor(Math.random()*(type.length - 1))
+
+    return type[rand]
 }
+
+
+
+console.log(findWord(adjective))
