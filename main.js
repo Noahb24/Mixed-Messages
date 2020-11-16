@@ -11,6 +11,10 @@ const findWord = type => {
     return type[rand]
 }
 
+const madLib = 
+    `It was a ${findWord(adjective)}, cold November day. I woke up to the 
+    ${findWord(adjective)} smell of ${findWord(typeOfBird)} roasting in 
+    the ${findWord(roomInAHouse)} downstairs. I ${findWord(verbPastTense)} down the 
+    stairs to see if i could help ${findWord(verb)} the dinner.`
 
-
-console.log(findWord(adjective))
+console.log(madLib)
